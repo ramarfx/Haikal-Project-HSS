@@ -14,18 +14,9 @@ const Home = () => {
       {/* Main Content */}
       <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-5xl gap-8">
         {/* Left Section - Text */}
-        <div className="text-center md:text-left md:w-1/2 border border-white p-8 bg-white shadow-lg rounded-lg">
-          <h1 className="text-4xl font-bold text-gray-800">PT. HAEKAL SURVINDO SERVICE</h1>
-          <p className="text-gray-800 text-xl mt-2 underline">UNDERWATER INSPECTION SERVICES</p>
-        </div>
-
-        {/* Right Section - Image */}
-        <div className="md:w-1/2 flex justify-center">
-          <img
-            className="w-full max-w-xs md:max-w-md rounded-lg"
-            src="https://static8.depositphotos.com/1176423/955/v/450/depositphotos_9555059-stock-illustration-high-detailed-ship-silhouette.jpg"
-            alt="Ship Illustration"
-          />
+        <div className="text-center text-white">
+          <h1 className="text-5xl font-bold">PT. HAEKAL SURVINDO SERVICE</h1>
+          <p className="text-xl mt-2">UNDERWATER INSPECTION SERVICES</p>
         </div>
       </div>
 

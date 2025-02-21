@@ -1,13 +1,17 @@
 import AboutUs from "./page/About"
-import UIS from "./page/UIS"
+import Founder from "./page/Founder"
+import Jumbotron from "./page/Jumbotron"
+import VissionMission from "./page/VisionMission"
 
 function App() {
 
   return (
-    <>
-     <UIS />
-     <AboutUs/>
-    </>
+    <main className="bg-blue-900 text-white">
+      <Jumbotron />
+      <AboutUs />
+      <Founder />
+      <VissionMission />
+    </main>
   )
 }
 
