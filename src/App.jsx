@@ -2,6 +2,7 @@ import AboutUs from "./page/About"
 import Founder from "./page/Founder"
 import Jumbotron from "./page/Jumbotron"
 import VissionMission from "./page/VisionMission"
+import Underwater from "./page/Underwater"
 
 function App() {
 
@@ -11,6 +12,7 @@ function App() {
       <AboutUs />
       <Founder />
       <VissionMission />
+      <Underwater />
     </main>
   )
 }
