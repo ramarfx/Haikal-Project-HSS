@@ -1,6 +1,8 @@
 
 import Header from "./components/Navbar"
 import AboutUs from "./page/About"
+import Contact from "./page/Contact.Jsx"
+
 import Founder from "./page/Founder"
 import Jumbotron from "./page/Jumbotron"
 import VissionMission from "./page/VisionMission"
@@ -14,6 +16,8 @@ function App() {
       <AboutUs />
       <Founder />
       <VissionMission />
+      <Contact />
+
     </main>
   )
 }
