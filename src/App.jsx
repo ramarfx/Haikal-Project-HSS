@@ -1,7 +1,7 @@
 
 import Header from "./components/Navbar"
 import AboutUs from "./page/About"
-import Contact from "./page/Contact.Jsx"
+import Contact from "./page/Contact"
 
 import Founder from "./page/Founder"
 import Jumbotron from "./page/Jumbotron"
