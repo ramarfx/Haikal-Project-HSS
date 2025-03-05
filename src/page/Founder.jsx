@@ -1,6 +1,7 @@
 const Founder = () => {
     return (
         <section className="py-20">
+            
             <div className="container mx-auto px-4">
                 <div className="flex flex-wrap justify-center md:justify-between items-center w-full">
                     <div className="w-full md:w-1/2 text-center md:text-left mb-6 md:mb-0">
