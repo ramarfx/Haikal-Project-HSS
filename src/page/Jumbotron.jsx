@@ -1,11 +1,11 @@
 
 const Home = () => {
   return (
-    <div className="w-full min-h-screen bg-blue-900 flex flex-col items-center justify-center p-8 relative">
+    <div className="w-full min-h-screen bg-[url('/image/hero-bg.svg')] bg-cover md:bg-bottom flex flex-col items-center justify-center p-8 relative">
       {/* Logo */}
       <div className="absolute top-5 left-5">
         <img
-          src="https://png.pngtree.com/png-vector/20230814/ourmid/pngtree-cartoon-warship-sticker-design-on-white-background-with-sea-and-clouds-vector-png-image_6897911.png"
+          src="/image/logo.jpg"
           alt="Haekal Logo"
           className="w-16"
         />
@@ -21,13 +21,13 @@ const Home = () => {
       </div>
 
       {/* Bottom Image */}
-      <div className="absolute bottom-0 left-0 w-40 md:w-60 lg:w-80 p-1">
+      {/* <div className="absolute bottom-0 left-0 w-40 md:w-60 lg:w-80 p-1">
         <img
           className="w-20 shadow-lg"
           src="https://static8.depositphotos.com/1176423/955/v/450/depositphotos_9555059-stock-illustration-high-detailed-ship-silhouette.jpg"
           alt="Bottom Image"
         />
-      </div>
+      </div> */}
     </div>
   );
 };

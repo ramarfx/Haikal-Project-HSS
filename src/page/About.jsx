@@ -2,7 +2,7 @@ import HeaderPage from "../components/Header";
 
 const AboutUs = () => {
   return (
-    <section className="w-full py-20 flex flex-col items-center relative">
+    <section className="w-full py-20 bg-[url('/image/about-bg.svg')] bg-cover bg-bottom flex flex-col items-center relative">
       <div className="container mx-auto px-4">
         <HeaderPage />
         <div className="w-full flex flex-col md:flex-row md:justify-between gap-6 items-center md:items-stretch relative">
